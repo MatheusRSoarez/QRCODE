@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de etapa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div>
+                <h1>Verificação</h1>
+                <p>Clique no botão para verificar se a etapa foi prosseguida corretamente</p>
+                <button onclick="verificacao()" class="botao">ok</button>
+        
+                <p class="mensagem " id="demo"></P>
+            </div>
+        </section>
+    
+    <script>
+        function verificacao(){
+            document.getElementById("demo").innerHTML = "Etapa verificada com sucesso."
+        }
+    </script>
+    </main>
+</body>
+<footer>
+    <p>Giros Extreme 2025</p>
+</footer>
+</html>

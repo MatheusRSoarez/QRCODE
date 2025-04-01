@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2%;
+}
+
+main{
+    flex: 1;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+h1{
+    margin-bottom: 1%;
+}
+
+.botao{
+    width: 2em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.mensagem{
+    color: green;
+}
